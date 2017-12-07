@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/capture"
+        android:title="Capture"
+        android:icon="@drawable/filter"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/editPhoto"
+        android:title="Capture"
+        android:icon="@drawable/filter"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/filter1"
+        android:title="힙찔이"
+       app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/filter2"
+        android:title="그것이알고싶다"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/filter7"
+        android:title="홍대병"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/filter9"
+        android:title="휘청휘청"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/filter10"
+        android:title="대조"
+       app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/filter13"
+        android:title="조명"
+        app:showAsAction="never"
+        />
+
+</menu>

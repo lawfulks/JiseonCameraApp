@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--카메라 화면임 -->
+
+    <HorizontalScrollView
+        android:id="@+id/filterIcons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/filtertab"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="힙찔이"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 힙찔이 filter 1-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textview2_string"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 그것이 알고싶다 filter 2-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="홍대병"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 홍대병 filter 7-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="휘청휘청"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 휘청휘청 filter 9-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="대조"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 대조 filter 10-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageView6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/filtericon"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="홍대병"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <!-- 조명 filter 13-->
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:fillViewport="false"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <ImageButton
+            android:id="@+id/filterBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="0sp"
+            app:srcCompat="@drawable/filter"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/capture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="0sp"
+            app:srcCompat="@drawable/shutter"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/gallery"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="0sp"
+            app:srcCompat="@drawable/gallery"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
